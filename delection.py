@@ -2,7 +2,7 @@ import mediapipe as mp
 import cv2
 import pyautogui
 
-hand_detector = mp.solutions.face_mesh.FaceMesh()
+hand_detector = mp.solutions.hands.Hands()
 
 draw_landmarks = mp.solutions.drawing_utils
 cap = cv2.VideoCapture(0)
